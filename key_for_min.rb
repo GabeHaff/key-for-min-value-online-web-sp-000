@@ -7,11 +7,12 @@ index = 0
 nutritious_hash.each do |key, value| 
   if value[index] < value[index+1]
     min_key=value 
-    index= index+1 
+     index= index+1 
     key_for_min_value[value]
-    elsif nutritious_hash
+    return min_key 
+   elsif nutritious_hash.empty? 
+    return nil 
 
-return min_key 
 end 
 end 
 end 

@@ -12,5 +12,5 @@ named_array = named_hash.to_a
         lowest_key_value = i[0]
       end
    end
-  return default_key_value
+  return lowest_key_value
 end  

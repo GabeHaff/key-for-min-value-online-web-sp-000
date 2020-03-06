@@ -2,9 +2,9 @@
 # Given a hash with numeric values, return the key for the smallest value
 
 def key_for_min_value(nutritious_hash)
-nutritious_hash={:apple => 12, :broccoli => 7,:carrot => 5}
+named_hash={:blake => 12, :ashley => 7,:adam => 5}
 index = 0 
-nutritious_hash.each do |key, value| 
+named_hash.each do |key, value| 
   if value[index] < value[index+1]
     min_key=value 
      index= index+1 

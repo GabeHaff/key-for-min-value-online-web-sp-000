@@ -11,7 +11,7 @@ nutritious_hash.each do |key, value|
     key_for_min_value[value]
     return min_key 
    elsif nutritious_hash.empty? 
-    return nil 
+    return 
 
 end 
 end 

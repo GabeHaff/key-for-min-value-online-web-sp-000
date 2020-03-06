@@ -6,10 +6,10 @@ named_array = named_hash.to_a
   default_value= 1000
   lowest_key_value= nil 
 
-  named_array.each do |i|
-      if i[1] < default_value
-        default_value = i[1]
-        lowest_key_value = i[0]
+  named_array.each do |v|
+      if v[1] < default_value
+        default_value = v[1]
+        lowest_key_value = v[0]
       end
    end
   return lowest_key_value

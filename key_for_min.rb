@@ -9,7 +9,6 @@ nutritious_hash.each do |key, value|
     min_key=value 
      index= index+1 
     key_for_min_value[value]
-    
    else
     return nil
 
